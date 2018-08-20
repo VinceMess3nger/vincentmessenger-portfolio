@@ -13,7 +13,7 @@
     ]
   },
   "hosting": {
-    "public": "public",
+    "public": "dist/vincent-messenger-website",
     "ignore": [
       "firebase.json",
       "**/.*",
