@@ -9,11 +9,15 @@ import {MatDividerModule} from '@angular/material/divider';
 
 
 import { AppComponent } from './app.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ToolbarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
